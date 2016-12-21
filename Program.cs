@@ -7,6 +7,8 @@ namespace ConsoleApplication
         public static void Main(string[] args)
         {
 
+            //this application calculautes percentage of a student
+
             Student student1=new Student("asif",1);
             student1.english_score=80;
             student1.urdu_score=80;
