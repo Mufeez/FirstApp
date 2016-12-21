@@ -15,7 +15,7 @@ namespace ConsoleApplication
             student1.science_score=80;
             student1.mathematics_score=70;
            
-            float percentage=student1.Percentage();
+            float percentage=student1.Percentage(100,6);
            
             Console.WriteLine(percentage);
         
@@ -42,13 +42,13 @@ namespace ConsoleApplication
   
         }
  
-        public float Percentage ()
+        public float Percentage (int max_score ,int number_of_subjects)
 
             {
 
                 int total_marks = this.mathematics_score+this.kannada_score+this.science_score+this.social_science_score+this.urdu_score+this.english_score;
 
-                float percentage=((float)total_marks/600)*100;
+                float percentage=((float)total_marks/(max_score*number_of_subjects))*100;
                 return percentage;
             }
 
