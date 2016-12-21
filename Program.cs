@@ -9,7 +9,7 @@ namespace ConsoleApplication
 
             Student student1=new Student("asif",1);
             student1.english_score=80;
-            student1.urdu_score=90;
+            student1.urdu_score=80;
             student1.kannada_score=70;
             student1.social_science_score=90;
             student1.science_score=80;
