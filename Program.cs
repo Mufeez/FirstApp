@@ -8,6 +8,7 @@ namespace ConsoleApplication
         {
 
             //this application calculautes percentage of a student
+            //added another comment
 
             Student student1=new Student("asif",1);
             student1.english_score=80;
